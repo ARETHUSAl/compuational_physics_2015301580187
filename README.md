@@ -1,2 +1,3 @@
-# compuational_physics_2015301580187
-Homework
+# Homework List
+******
+[x] Exercise_01: [README.md]（./readme.md）
