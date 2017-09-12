@@ -13,4 +13,4 @@
 
 
 [1]: https://github.com/ARETHUSAl/compuational_physics_2015301580187/blob/master/README.md/
-[2]: https://github.com/ARETHUSAl/compuational_physics_2015301580187/blob/master/maybe_better.py/
+[2]: https://github.com/ARETHUSAl/compuational_physics_2015301580187/tree/master/Exercise_02
