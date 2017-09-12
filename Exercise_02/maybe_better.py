@@ -6,7 +6,7 @@ Created on Mon Sep 11 21:31:13 2017
 """
 
 
-#使用pygame模块把字符转换为JPG文件，然后用PIL将JPG文件转换为字符画的形式
+#使用pygame模块把字符转换为JPG文件，然后用PIL将JPG文件转换为字符画的形式，保存为txt文档
 
 import os
 import pygame
@@ -14,9 +14,9 @@ from PIL import Image
  
 pygame.init()
  
-text = u"王乎"
+text = u"WANGHU王乎"
 font = pygame.font.Font(os.path.join("ttc", "msyh.ttc"), 64)
-rtext = font.render(text, True, (0, 0, 0), (255, 255, 255))
+rtext = font.render(text, True, (0, 0, 0), (255, 255, 255))#渲染到图片
  
 pygame.image.save(rtext, "t.jpg")
 
