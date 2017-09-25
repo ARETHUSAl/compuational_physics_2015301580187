@@ -1,8 +1,9 @@
 # Homework List
 ******
-- [x]  [Exercise_01: README.md][1]
-- [x]  [Exercise_02: My Name][2]
-- [x]  [Exercise 02v2: My Name][3] 
+- [x]  [Exercise 01: README.md][1]
+- [x]  [Exercise 02: My Name][2]
+- [x]  [Exercise 02v2: My Name][3]
+- [ ]  [Exercise 03: Chapter one]
 
 
 
