@@ -72,10 +72,13 @@ class ode:
         data_file.close  
         
 ############################################################################################################
-N = input("N = :") 
-N = int (N)
+N= 1000
+a1= input("a = :")
+a1= float(a1)
+b1= input("b = :")
+b1= float(b1)
 A = ode(0.01,0,0.5,N)
-A.set_fx('10*y-0.01*y*y',['x','y']) # 调整a,b参数
+A.set_fx('%s*y-%s*y*y'%(a1,b1),['x','y']) # 调整a,b参数
 euler_record = A.euler()[:]
 b = 0
 y = [100]
@@ -87,10 +90,12 @@ plt.xlabel('Time', fontsize = 11)
 plt.plot(euler_record[1][0],linewidth = 2,label = 'simple euler method')'''
 fig = plt.figure()
 ax = fig.add_subplot(1,1,1)
+
 xs = range(15000)
 ys = range(60)
 plt.ylabel('Population',fontsize = 12)
 plt.xlabel('Time/year', fontsize = 12)
+ax.set_title("N = %s , a = %s , b = %s"%(N,a1,b1))
 ax.plot(euler_record[1][0],linewidth = 2,label = 'simple euler method')
-savefig("population.png",dpi=300)
+savefig("N = %s , a = %s , b = %s.png"%(N,a1,b1),dpi=300)
 plt.show()
