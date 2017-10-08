@@ -1,5 +1,6 @@
-#Exercise 3
-## Chapter 1 Population problem
+# Exercise 3
+## Chapter 1 
+### 1.6　Population problem
 ### click the link
 [Homework address][1]
 
