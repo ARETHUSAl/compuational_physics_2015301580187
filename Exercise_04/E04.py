@@ -9,15 +9,26 @@ import math
 import time
 import numpy 
 from matplotlib import pyplot
-
+from numpy import arange
 
 # fixed 
 g        = 9.8
 B2m      = 4e-5
-iniSpeed = 700
+iniSpeed = 1000
 sita     = math.pi/2
 sign     = -2
-
+##############################################
+#    Set  Angle 
+inputStartAngle = arange(0,95,5)
+'''
+inputStartAngle = input("Start Angle : ")
+startAngle = float(inputStartAngle)
+if startAngle >= 0 and startAngle <= 90:
+    Angle = (startAngle/90)*sita 
+else :
+    print("error") 
+    exit()
+'''
 
 
 class FlightState:
@@ -72,28 +83,37 @@ class CannonShell:
         for fs in self.flightState:
             x.append(fs.x)
             y.append(fs.y)
-        pyplot.plot(x,y)
+        pyplot.plot(x, y, label = 'Angle is $%s^{\circ}$'%startAngle)
 
 
 ###################################################################################
-fig = pyplot.figure(figsize=(15,6))
-xmin, xmax = 0., 4e+4
-ymin, ymax = 0., 1e+4
+fig = pyplot.figure(figsize=(16,8))
+xmin, xmax = 0., 5e+4
+ymin, ymax = 0., 2.5e+4
 dx = (xmax - xmin) * 0.1
 dy = (ymax - ymin) * 0.2
 ax = pyplot.axes(xlim = (xmin, xmax + dx), ylim = (ymin, ymax + dy))
 
-# name the axis
-pyplot.xlabel(r'$x(m)$', fontsize=16)
-pyplot.ylabel(r'$y(m)$', fontsize=16)
+
+
+for i in range(len(inputStartAngle)):
+    startAngle = inputStartAngle[i]
+    Angle      = (startAngle/90)*sita
+    # name the axis
+    pyplot.xlabel(r'$x(m)$', fontsize=16)
+    pyplot.ylabel(r'$y(m)$', fontsize=16)
+    pyplot.title("Cannon Trajectory")
+    pyplot.legend(loc='Angle is $%s^{\circ}$'%startAngle)
 
 ##################################################################################
+    iniVy = iniSpeed*math.sin(Angle)
+    iniVx = iniSpeed*math.cos(Angle)
+    cannonShell = CannonShell(FlightState(0, 0, iniVx, iniVy, 0), _dt = 0.1)
+    cannonShell.shoot()
+    cannonShell.showTrajectory()
 
-cannonShell = CannonShell(FlightState(0, 0, 1000, 500, 0),_dt = 0.1)
-cannonShell.shoot()
-cannonShell.showTrajectory()
+    pyplot.savefig("Cannon Trajectory")
 
-fig.savefig("test.png")
 pyplot.show()
 
 
