@@ -42,4 +42,4 @@
 [3]: http://oxi4zdqq2.bkt.clouddn.com/Cannon%20Trajectory2.png
 [4]: http://oxi4zdqq2.bkt.clouddn.com/Cannon%20Trajectory3.png
 [5]: http://oxi4zdqq2.bkt.clouddn.com/Cannon%20Trajectory4.png
-[6]: http://oxi4zdqq2.bkt.clouddn.com/bandicam-2017-10-14-12-36-18-132.gif
+[6]: https://raw.githubusercontent.com/ARETHUSAl/compuational_physics_N2015301580187/master/Exercise_04/bandicam-2017-10-14-12-36-18-132.gif
