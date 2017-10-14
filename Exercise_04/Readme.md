@@ -25,6 +25,7 @@
 
 ###Pygame
 把函数运行过程的数据传递到pygame中，可以模拟炮弹发射，粗糙的原始代码放在里面了。。。。。。。。。。。
+![666][6]
 
 
 
@@ -41,3 +42,4 @@
 [3]: http://oxi4zdqq2.bkt.clouddn.com/Cannon%20Trajectory2.png
 [4]: http://oxi4zdqq2.bkt.clouddn.com/Cannon%20Trajectory3.png
 [5]: http://oxi4zdqq2.bkt.clouddn.com/Cannon%20Trajectory4.png
+[6]: http://oxi4zdqq2.bkt.clouddn.com/bandicam-2017-10-14-12-36-18-132.gif
