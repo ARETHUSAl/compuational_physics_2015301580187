@@ -4,7 +4,9 @@
 - [x]  [Exercise 02: My Name][2]
 - [x]  [Exercise 02v2: My Name][3]
 - [x]  [Exercise 03: Chapter one][4]
-- [ ]  [Exercise 04: Chapter Two][5]
+- [x]  [Exercise 04: Chapter Two][5]
+- [ ]  [Exercise_05: Chapter Two][6]
+
 
 
 
@@ -20,3 +22,4 @@
 [3]: https://github.com/ARETHUSAl/compuational_physics_N2015301580187/tree/master/Exercise_02V2
 [4]: https://github.com/ARETHUSAl/compuational_physics_N2015301580187/tree/master/Exercise_03
 [5]: https://github.com/ARETHUSAl/compuational_physics_N2015301580187/tree/master/Exercise_04
+[6]: https://github.com/ARETHUSAl/compuational_physics_N2015301580187/tree/master/Exercise_05
