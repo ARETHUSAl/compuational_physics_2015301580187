@@ -5,12 +5,7 @@
 - [x]  [Exercise 02v2: My Name][3]
 - [x]  [Exercise 03: Chapter one][4]
 - [x]  [Exercise 04: Chapter Two][5]
-- [ ]  [Exercise_05: Chapter Two][6]
-
-
-
-
-
+- [x]  [Exercise_05: Chapter Two][6]
 
 
 
