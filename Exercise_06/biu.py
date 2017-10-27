@@ -10,7 +10,7 @@ from matplotlib import pyplot
 
 
 
-def change_amp(F):
+def change_amp(theta0):
 
     q = 0.5
     l = 9.8
@@ -18,12 +18,12 @@ def change_amp(F):
     f = float(2/3)
     dt = 0.04
     #dt = math.pi / 100
-    theta0 = 0.2
+    #theta0 = 0.2
     omega0 = 0
     angle = [theta0]
     avelo = [omega0]
     t = [0]
-    #F = 1.2
+    F = 1.2
     #an = []
     #av = []
     for i in range(5000):
@@ -54,7 +54,7 @@ def change_amp(F):
 
 fig,ax = pyplot.subplots()
 #one
-
+'''
 #for i in [0,0.5,1.2]:
 for i in [1.2]:
     angle_0 = change_amp(i)[0]
@@ -66,9 +66,9 @@ for i in [1.2]:
     ax.set_title(r'$\theta$ versus time')
     
     pyplot.plot(t_0,angle_0,label='FD=%s'%i)
-
-#two
 '''
+#two
+
 angle1 =  change_amp(0)[0]  
 angle2 =  change_amp(0.01)[0]
 dangle = list(map(lambda x: abs(x[0]-x[1]), zip(angle1, angle2)))
@@ -78,7 +78,7 @@ pyplot.yscale('log')
 ax.set_xlabel(r'time(s)', fontsize=14)
 ax.set_ylabel(r'$\Delta \theta(radians)$', fontsize=14)
 ax.set_title(r'$\Delta \theta(radians)$ versus time')
-'''
+
 '''
 #three
 angle1 = change_amp()[0]
