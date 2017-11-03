@@ -34,7 +34,7 @@ class Z:
         y1 = []
         z1 = []
         
-        for i in range(499999):
+        for i in range(1999999):
             dxdt.append( sigma * ( y[-1] - x[-1] ))
             dydt.append( -x[-1] * z[-1] + self.r * x[-1] - y[-1])
             dzdt.append( x[-1] * y[-1] - lb * z[-1])
@@ -43,17 +43,18 @@ class Z:
             y.append( y[-1] + dydt[-1] * dt)
             z.append( z[-1] + dzdt[-1] * dt)
             t.append( t[-1] + dt)
-        '''
-            if abs(y[-1])<0.01:
-                x0.append(x[-1])
-                z0.append(z[-1])
-            if abs(x[-1])<0.01:
-                y1.append(y[-1])
-                z1.append(z[-1])
+            '''
+            if t[-1]>30:
+                if abs(y[-1])<0.01:
+                    x0.append(x[-1])
+                    z0.append(z[-1])
+                if abs(x[-1])<0.01:
+                    y1.append(y[-1])
+                    z1.append(z[-1])
         return x0,z0,y1,z1
-        '''
-        #return x,y,z
-        return t,z
+'''
+        return x,y,z
+        #return t,z
  
 
 #Work One
@@ -78,7 +79,7 @@ fig.show()
 '''
 
 #Work two
-'''
+
 a = Z(25)
 xa,ya,za = a.z()
 fig = plt.figure()
@@ -93,7 +94,7 @@ legend = ax.legend(loc='upper right')
 fig.set_size_inches(18.5, 10.5)
 fig.savefig('wewee.png', dpi=300)
 fig.show()   
-'''
+
 
 #Work Three
 '''
@@ -140,10 +141,11 @@ ax2.set_xlim = (-20,20)
 ax2.set_title(r'Phase space plot: z versus when x = 0')
 legend = ax2.legend(loc='upper right')
 
-plt.savefig('baba.png',dpi = 300)
+plt.savefig('babaa.png',dpi = 300)
 fig.show()
 '''
 #work five
+'''
 a = Z(160)
 ta,za = a.z()
 b = Z(166)
@@ -175,7 +177,7 @@ legend = plt.legend(loc='upper right')
 
 plt.savefig('yue.png',dpi = 300)
 fig.show()
-
+'''
 
 
 
