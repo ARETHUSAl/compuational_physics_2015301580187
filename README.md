@@ -7,7 +7,7 @@
 - [x]  [Exercise 04: Chapter Two][5]
 - [x]  [Exercise_05: Chapter Two][6]
 - [x]  [Exercise_06: Chapter Three][7]
-
+- [x]  [Exercise_07: Chapter Three][8]
 
 
 
@@ -19,3 +19,4 @@
 [5]: https://github.com/ARETHUSAl/compuational_physics_N2015301580187/tree/master/Exercise_04
 [6]: https://github.com/ARETHUSAl/compuational_physics_N2015301580187/tree/master/Exercise_05
 [7]: https://github.com/ARETHUSAl/compuational_physics_N2015301580187/tree/master/Exercise_06
+[8]: https://github.com/ARETHUSAl/compuational_physics_N2015301580187/tree/master/Exercise_07
