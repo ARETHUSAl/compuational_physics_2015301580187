@@ -13,6 +13,7 @@
 ***这段时间忙炸了，，，，，所以期中作业晚了一个星期，缩水了好多***
 - [x]  [Exercise_09: Chapter Four][11]
 - [x]  [Exercise_10: Chapter Five][12]
+- [x]  [Exercise_11: Chapter Six][13]
 
 
 [1]: https://github.com/ARETHUSAl/compuational_physics_2015301580187/blob/master/README.md/
@@ -27,3 +28,4 @@
 [10]: https://github.com/ARETHUSAl/compuational_physics_N2015301580187/tree/master/%E6%9C%9F%E4%B8%AD
 [11]: https://www.zybuluo.com/574718927/note/971316
 [12]: https://www.zybuluo.com/574718927/note/979148
+[13]: https://github.com/ARETHUSAl/compuational_physics_N2015301580187/tree/master/Exercise_11
