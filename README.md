@@ -10,7 +10,6 @@
 - [x]  [Exercise_07: Chapter Three][8]
 - [x]  [Exercise_08: Chapter Three][9]
 - [x]  [期中][10]
-***这段时间忙炸了，，，，，所以期中作业晚了一个星期，缩水了好多***
 - [x]  [Exercise_09: Chapter Four][11]
 - [x]  [Exercise_10: Chapter Five][12]
 - [x]  [Exercise_11: Chapter Six][13]
