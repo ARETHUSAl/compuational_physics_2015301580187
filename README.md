@@ -14,6 +14,7 @@
 - [x]  [Exercise_09: Chapter Four][11]
 - [x]  [Exercise_10: Chapter Five][12]
 - [x]  [Exercise_11: Chapter Six][13]
+- [x]  [期末][14]
 
 
 [1]: https://github.com/ARETHUSAl/compuational_physics_2015301580187/blob/master/README.md/
@@ -29,3 +30,4 @@
 [11]: https://www.zybuluo.com/574718927/note/971316
 [12]: https://www.zybuluo.com/574718927/note/979148
 [13]: https://github.com/ARETHUSAl/compuational_physics_N2015301580187/tree/master/Exercise_11
+[14]: https://www.zybuluo.com/574718927/note/998884
